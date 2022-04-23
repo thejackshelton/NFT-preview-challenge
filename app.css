@@ -1,18 +1,73 @@
-html {
-    font-family: 'Outfit', sans-serif;
-}
-
 body {
-    background-color: hsl(217, 54%, 11%);
-}
-
-p {
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
-}
-
-.card {
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card {
     background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    border-radius: 15px;
+    padding: 1.5em;
+
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: auto;
+}
+
+.card #nft {
+    width: 375px;
+    height: 375px;
+    border-radius: 20px;
+
+}
+
+p,
+#author {
+    color: hsl(215, 51%, 70%);
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    left: 275px;
+    bottom: 20px;
+}
+
+#price {
+    color: hsl(178, 100%, 50%);
+}
+
+#name {
+    color: white;
+}
+
+#eth {
+    margin-right: 5px;
+}
+
+#bottomtext {
+    position: relative;
+    bottom: 15px;
+}
+
+.info {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+.card #avatar {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+
 }
