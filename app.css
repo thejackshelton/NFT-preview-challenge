@@ -13,20 +13,29 @@ body {
     background-color: hsl(216, 50%, 16%);
     width: 375px;
     border-radius: 15px;
-    padding: 1.5em;
+    padding: 1.3em;
+
 
 }
 
 h1 {
     color: white;
     font-size: 35px;
-    margin-bottom: auto;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    font-weight: 600;
 }
 
-.card #nft {
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card .nft {
     width: 375px;
     height: 375px;
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 
@@ -38,7 +47,7 @@ p,
 #time {
     color: hsl(215, 51%, 70%);
     position: relative;
-    left: 275px;
+    left: 270px;
     bottom: 20px;
 }
 
@@ -50,13 +59,16 @@ p,
     color: white;
 }
 
-#eth {
+#eth,
+#clock {
     margin-right: 5px;
 }
+
 
 #bottomtext {
     position: relative;
     bottom: 15px;
+    left: 20px;
 }
 
 .info {
@@ -70,4 +82,9 @@ p,
     border: 1px solid white;
     border-radius: 50%;
 
+}
+
+#name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
