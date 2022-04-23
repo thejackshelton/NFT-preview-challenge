@@ -46,6 +46,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+Looking at the documentation, I noted that this challenge will use Media Queries to make it responsive for both Mobile and Desktop. I put that into consideration, I also noticed that this solution likely uses flex box. 
+
 ### Built with
 
 - Semantic HTML5 markup

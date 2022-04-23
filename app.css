@@ -1,0 +1,18 @@
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+p {
+    font-size: 18px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+}
